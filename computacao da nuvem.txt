@@ -1,0 +1,49 @@
+
+#O que é computação em nuvem? 
+
+É o fornecimento de serviços de computacao pela internet,
+habilitando inovacoes mais rapidas,
+recursos flexiveis e economias de escala.
+
+#Modelo de Nuvem
+
+> Nuvem Privada (ambiente fisico)
+
+-As organizaçoes criam um ambiente em nuvem em seu datacenter.
+-as organizacoes sao responsaveis por operar os serviços que fornecem
+-nao fornece acesso aos usuarios fora da organizacao
+
+> Nuvem Publica
+
+-Fornece recursos e serviços a varias organizacoes e usuarios
+-Acesada via conexacao segura (internet)
+-Pertence a serviços de nuvem ou provedor de hosting
+
+>Nuvem Hibrida
+
+-Geralmente tem ambiente local e nuvem publica.
+
+#Comprarcao de modelos de nuvem
+
+>Nuvem publica
+
+-Nenhuma despesa de capital para escalar verticalmente.
+-os aplicativos podem ser provisionados e desprovisionados.
+-as organizacoes pagam apenas pelo que utilizam.
+
+>Nuvem privada (ambiente fisico)
+
+-As organizacoes tem controle total sobre os recursos e a seguranca
+-as organizacoes sao responsaveis pela munutencao e pelas atualizacoes de hardware
+
+>Nuvem hibrida
+
+- as organizacoes determinam onde executar seus aplicativos
+- as organizacoes controlam a seguranca, a conformidade e os requisitos legais
+- fornece a maior flexibilidade
+
+
+#Comparação CapEx e OpEx
+
+CapEx - Despesa de capital (infraestrutura fisica, ar condicionado, computadores...)
+OpEx - Despesa operacional (produtos , serviços, por tempo de uso )
