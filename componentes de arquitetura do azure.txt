@@ -1,0 +1,35 @@
+
+#Regioes
+conjuntos de disponibilidade sao compostos por dominios de atualizacao e de falha
+
+- As regioes sao compostas de um ou mais datacenters muito proximo. (trabalhar com a ideia de 3 para caso um caia , ainda tem outros dc para continuar )
+- eles fornecem flexibilidade e escala para reduzir a latencia do cliente (o mesmo dado tem que ser replicado para outros datacenter)
+- Cuida da lgpd
+
+zona de disponibilidade ( 1 regiao conter varios datacenter)
+
+#Pare de regiao
+-tem uma regiao par para a regiao original
+-replicacao automatica para alguns serviço
+
+>regioes soberanas do azure
+atende a necessidades de segurança (area militar, governo..)
+
+#grupo de Recursos do azure
+(web mais bd, Vmm armazenamento) um grupo de recursos e um conteiner que voe usa para gerenciar e agredar recursos em uma unica unidade
+- organizacao
+
+
+# Assinaturas 
+
+Questao de prova: uma conta pode ter diversas assinaturas mas uma assinatura esta associada apenas a uma conta
+ex: uma pessoa pode ter varios lotes, mas um lote é de uma pessoa
+
+-geraçao de relatorios de cobranca
+-limite de controle de acesso
+
+
+Grupos de gerenciamento
+assinaturas
+grupos de recursos
+recursos
