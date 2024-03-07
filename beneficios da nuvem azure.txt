@@ -1,0 +1,32 @@
+#Beneficios da nuvem
+
+> Alta disponibilidade (conhecido como SLA) se passar das horas que esta em contrato, voce vai ter creditos na microsoft
+> Escalabilidade 
+	- Ajustar recursos para atender a demanda (alocar memoria, armazenamentos, processamento)
+
+> Elasticidade
+	- Servico ou recurso se adapta a medida em que vao sendo consumidos mais recursos.
+
+> Confiabilidade
+	- Se um serviço estiver fora em uma determinada regiao, o sistema vai lançar para outro lugar para nao ficar fora.
+
+> Previsibilidade
+
+- Permite que voce avance com confianca, seja no desempenho ou no custo. 
+Ambas sao influenciadas pelo microsoft azure well architected framework.
+
+> Segurança (responsabilidade do provider(micro) fornecer serviços que atendam a demanda)
+	(Regras é o cliente que define, e nao a microsoft)
+	- A nuvem oferece ferramentas de seguranca que atendem as necessidades dos clientes mas, 
+e importante lembrar que a implementacao de muitas delas devem ser realizadas pelo cliente.
+
+> Governança
+	- Auditoria baseada em nuvem ajuda a sinalizar qualquer recurso que esteja 
+fora de conformidade com seus padroes corporativos e fornece estrategias de mitigacao.
+	- Atribuir padroes cooperativo de recursos
+	- Relatorio
+
+> Gerenciabilidade
+	-Usar o portal, linha de comando, usando APis, Powershell;
+	-Implementar recursos com base em um modelo pre configurado
+
