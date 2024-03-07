@@ -1,0 +1,26 @@
+#Tipos de serviços em nuvem
+
+#Iaas (maior gestao)
+
+- Infraestrutura com serviço (servidores e armazenamento  / Firewalls seguranca de rede / Planta fisica, edificio do datacenter)
+
+-serviço de nuvem mais flexivel
+
+#Paas (intermediaria gestao)
+
+-Plataforma como serviço ( sistema operacional / ferramentas para desenvolvedores, analista de negocio e gerenciamento de database )
+-focado no desenvolvimento de aplicativos
+
+#Saas (menor gestao)
+
+-Software como serviço (aplicativos Ex: Teams, nao me preocupo onde os dados estao, só quero ter acesso)
+-modelo de preço de pagamento conforme o uso (licença, modelo de assinatura)
+
+>> Modelo de responsabilidade compartilhada
+-responsabilidae da microsoft
+
+iaas - hosts fisicos, rede fisica, data center fisico
+paas - hosts fisicos, rede fisica, data center fisico, sistema operacional
+saas - hosts fisicos, rede fisica, data center fisico, sistema operacional, controles de rede e aplicativos
+
+
