@@ -1,0 +1,53 @@
+#Computacao azure
+
+-É um serviço sob demanda que fornece recursos de computaca,
+como discos, processadores, memoria, rede e sistemas operacionais.
+
+Conjunto de disponibilidade de VM
+ex:
+Dominio de falhas(racker) se o Racker ficar sem energia o racker nao vai funcionar
+Dominio de atualizacao (vms)
+
+#Rede Virtual (VNET)
+permite aque os recursos do azure se comuniquem uns com outros
+ex: criei uma maquina virtual e ela precisa de uma rede virtual
+
+#Gateway de Vpn
+é usado para enviar trafego criptografado entre uma red virtual e uma local pela internet publica
+
+#Express router
+-comunicacao direta
+-estende as redes locais para o azure por meio de uma conexao privada facilitada por um provedor de conectividade
+
+para conectar redes virtuais entre si usa-se o emparelhamento de rede
+#DNS
+ip para nome amigavel; ex:10.0.0.1 para google.com
+-confiabilidade e desempenho aproveitadando uma rede global usando a rede Anycast
+
+
+#Area de trabalho virtual
+- acesso a maquina virtual
+	. crie um ambiente completo de virtualizacao da area de trabalho sem precisar executar outros servidores de gateway
+	. reduz o risco de que o recurso seja deixado para tras
+	. Implantações reais de varias sessões.
+
+#serviço de conteineres (paas)
+-fornece um ambiente leve virtualizado que nao exige o gerenciamento do sistema operacional e pode responder a alteracoes sob demanda.
+
+>instancias de container do azure (uma oferta de Paas)
+>aplicativos de conteiner do azure (uma oferta do Paas) balanceamento de cargas (aplicativos)
+>serviço kuberbetes ciclo 
+
+Kubernet aks- faz a gestao dos conteiner, orquestra os container, se um serviço nao esta sendo ultilizado, so tirar esse recurso
+
+#Serviços de aplicativos (oferta de Paas)
+	-deploy do projeto
+
+#Azure Functions
+
+Uma oferta de Paas que da suporte a operacoes de computacao sem servidor 
+o codigo baseado em eventos e execultado quando chamado, 
+sem exigir uma infraestrutura de servidor durante periodos inativos
+
+questa: se voce precisa execultar uma atividade em um evento = R: azure functions
+questao de prova: qual o modelo de serviço de uma function: R: Paas (plataforma como serviço)
