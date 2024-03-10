@@ -1,0 +1,39 @@
+Armazenamento
+
+#Contas de armazenamento
+> Deve ter um globalmente nome exclusivo (minusculas de 3 a 24,pode ser letras e numeros)
+> Fornecer acesso a internet em todo o mundo
+> Determinar os serviços de armazenamento e as opcoes de redundancia
+
+LRS - armazenamento com redundancia local (datacenter individual na regiao primaria) indicados para ambientes nao produtivos
+ZRS - armazenamento com redundancia zona (tres zonas de disponibilidade na regiao primaria)
+GRS - armazenamento com redundancia geografica (datacenter unico no primario e regiao secundaria)
+GZRS - armazenamento com redundancia zona geografica ( tres zonas de disponibilidade na regiao primaria e um unico datacenter na regiao secundaria)
+
+#serviços de armazenamentos do azure
+
+-blob azure - Usado para armazenamento de dados massivos e nao estruturados, como textos ou dados binarios
+
+-disco do azure - fornece discos para maquinas virtuais 
+
+-fila do azure - armazenamento de mensagens
+
+-arquivos do azure - configura um compartilhamendo de arquivo de rede
+
+- tabelas do azure - fornece opcao chave e atributo para armazenamento de dados estruturados nao relacionais com um design sem esquema
+
+#Camadas de acesso de armazenamento
+- Frequente (cobra mais pelo armazenamento e menos pelos acessos)
+- Esporadico (cobra mais pelo acessos e menos pelos armazenamento)
+- Frio (cobra mais pelo acessos e menos pelos armazenamento)
+- Arquivo Morto (cobra mais pelo acessos e menos pelos armazenamento)
+
+#Migracao 
+
+azure data box - serviço de migração fixas (80tb)
+
+azCopy - linha de comando, copiar blobs ou arquivos para sua conta de armazenamento, sincronizacao em uma direcao. (so envia)
+
+gerenciador de armazenamento - interface grafica do usuario, semelhando ao windows explore, compativel com windows, mac e linux.
+
+sincronizacao de arquivos - sincroniza os arquivos do azure e local de forma bidirecional (envia dados e recebe)
