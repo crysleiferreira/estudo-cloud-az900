@@ -59,3 +59,5 @@ protecao completa, em toda camada
 
 >microsoft defender para nuvem (analise de vulnerabilidades)
 é um serviço de monitoramento que fornece protecao contra ameacas nos datacentes do azure e locais.
+
+Roles and administrator > permissao relacionado as outras contas e nao a recursos
