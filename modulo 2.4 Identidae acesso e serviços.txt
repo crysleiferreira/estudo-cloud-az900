@@ -2,7 +2,7 @@
 >metodos de autenticacao
 >modelos de segurancao
 
-
+questao de prova: quantos dias o usuario deletado pode ficar ate ser restaurado, 30 dias
 >Microsoft Entra ID é o serviço de gerenciamento de identidade e acesso baseado e nuvem do microsoft Azure (antigo active directory)
 
 -Autenticacoa ()os funcionarios entram para acessar os recursos)
