@@ -1,0 +1,61 @@
+>serviços de diretorio
+>metodos de autenticacao
+>modelos de segurancao
+
+
+>Microsoft Entra ID é o serviço de gerenciamento de identidade e acesso baseado e nuvem do microsoft Azure (antigo active directory)
+
+-Autenticacoa ()os funcionarios entram para acessar os recursos)
+-logon unico (sso) identifica que ja logou e nao precisa de senha novamente
+-gerenciamento de aplicativos
+-negocios para negocios (b2b) - logar via gmail, linkedin ..
+-gerenciamento de dispositivos
+
+
+Autenticacao X autorizacao
+
+Autenticacao
+-identifica a pessoa ou serviço buscando acesso a um recurso
+-solicita credencias de acesso legitimo
+-base para criar principiod de identidade e controle de acesso seguros.
+
+Autorizacao
+
+- determina o nivel de acesso a uma pessoa ou serviço
+- define quais dados eles podem acessar e o que podem fazer com eles
+
+
+MFA (autenticacao multifator)
+fornece seguranca adicional para as identidades, exigindo dois ou mais elementos para autenticacao completa
+
+algo que voce sabe <--> algo que voce possui <--> algo que voce é
+
+
+-Acesso condicional
+acesso baseado em sinais e direto
+faz o monitoramento
+
+- associacao de usuario ou grupo
+- local do ip
+- dispositivo
+- aplicativo
+- deteccao de risco
+
+> Controle baseado em função (RBAC)
+- gerenciamento de acesso de granularidade fina
+-divida as tarefas dentro da equipe e conceda somente  a quantidade de acesso de que os usuarios precisam para trabalhar
+- habilite o acesso ao portal e o controle de aceso aos recursos
+
+>Modelo de confiaça zero
+- protege os ativos em qualquer lugar com uma politica central
+protecao completa, em toda camada
+- seguranca fisica (hardware)
+-identidade e acesso (ddos)
+-perimetro ()
+-rede (limitar a comunicacao entre as redes)
+-computacao (vms, atualizacoes )
+-aplicativo (datacenter)
+-dados
+
+>microsoft defender para nuvem (analise de vulnerabilidades)
+é um serviço de monitoramento que fornece protecao contra ameacas nos datacentes do azure e locais.
