@@ -1,0 +1,33 @@
+#gerenciamento de custos
+
+
+questao de prova, marketplace nao e nativo da microsoft, tem que entrar em contato com o fabricante
+É uma ferramenta para estimar a economia de custos possível ao migrar para o Azure( calculadora de custos total de propriedade tco)
+
+ 
+>Descrever fatores que podem afetar os custos
+>compare a calculadora de preços e a calculadora de custo total
+
+>Descrever a finalidade das marcas
+
+
+#Fatores que afetam os custos:
+
+- Tipo de recurso (VMs - licenças, processadores, memoria, armazenamento)
+- Consumo
+- Manutenção (monitorar seu volume do azure e manter seu ambiente pode ajuda-lo a identificar e reduzir os custos que nao sao necessario)
+- Area geografica (mesmo tipo de recurso pode custar valores diferentes dependendo da area geografica)
+-Trafego de rede 
+- Assinatura (e a configuracao da assinatura tambem podem afetar o custo, ex. a avaliacao gratuita permite explora alguns recursos gratuitamente)
+
+#Azure Marketplace
+Permite que os clientes encontrem, experimentem, comprem e provisionem aplicativos e serviços.
+
+#Marcas
+
+Marcas nao sao herdadas
+
+Fornecem metadadaos aos recursos
+organizam os recursos em uma taxonomia de maneira logia
+
+util para reunir informacao de cobranca (taguear de onde é cada custo)
