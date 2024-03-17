@@ -1,0 +1,26 @@
+#Ferramenta de monitoramento
+
+- Assistente do azure
+- Integridade do serviço do zure
+- Azure monitor
+
+>Assistente do azure
+analisa recursos implantados do azure e faz recomendacoes com base na s praticas recomendadas
+-confiabilidade
+- seguranca
+-desempenho
+-custo
+-excelencia operacional
+
+O Assistente do Azure fornece uma exibição consistente e consolidada de recomendações para todos os recursos do Azure. Ele se integra ao microsoft defender para nuvem para fornecer recomendações de segurança.
+
+
+
+>Integridade do serviço do zure
+status de serviços, redes
+
+>azure monitor
+analisa decisoes com base na telemetria da nuvem e de ambientes locais
+
+>Resource health
+Exibição personalizada dos recursos reais do Azure. Ele fornece informações sobre a integridade de seus recursos de nuvem individuais.​
