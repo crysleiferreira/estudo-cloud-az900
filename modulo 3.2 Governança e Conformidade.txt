@@ -1,0 +1,18 @@
+#Azure policy - modify effect
+
+-ajuda impor padroes organizacionais e a avaliar a conformidade em escala.
+-fornece governanca e consistencia de recursos com conformidade regulatoria, seguranca, custo e gerenciamento.
+- avalia e identifica os recursos do azure que nao atendem as suas politicas
+-fornece definicoes de politicas e iniciativas integradas em categorias como armazenamento,rede, computacao, central de seguranca e monitoramento.
+
+#
+
+-proteja os recursos do zure de exclusao ou modificacao acidental
+-gerenciar bloqueios na assinatura,grupo de  recursos ou niveis de recursos individuais dentro doportal do azure
+
+bloqueios sao herdaveis
+
+#Microsoft Purview
+
+-é uma familia de solucao de governança, risco e conformidade de dados
+-apresenta quem tem acesso 
