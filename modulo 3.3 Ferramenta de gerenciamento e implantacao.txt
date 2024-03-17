@@ -1,0 +1,23 @@
+#Ferramentas de implantacao de recurso
+-Portal, PoweShell, CLI e outras
+-Azure Arc e Azure resource Manager(ARM)
+
+
+Arm(azure resource manager) 
+- fornece uma camada de gerenciamento que permite criar, atualizar e excluir recursos na assinatura do azure
+
+
+
+#Ifraestrutura como codigo
+-garanta consistencia na implantacao em todo o ecossistema de nuvem
+-gerencie a configuracao em escala
+-provisione rapidamente ambientes adicionais com base em uma configuracao e um build padrao
+
+
+#Modelos do ARM
+
+sao arquivos JSON, que podem ser usados para criar e implantar a infraestrutura do azure sem a necessidade de escrever comandos de programacao.
+
+bicep É uma linguagem específica de domínio (DSL) que usa sintaxe declarativa para implantar recursos apenas dentro do  Azure.
+
+O Azure ARC permite o gerenciamento de recursos em outras nuvens, são elas: aws e gcp
